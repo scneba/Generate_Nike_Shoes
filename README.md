@@ -16,7 +16,7 @@ The **Deep Convolutional Generative Adversary Network(DCGAN)** is based on the i
 - This project can be ran directly from the notebook and this line `input_images_path =glob("Shoes/*")` changed to the path images that will be used to train the network. The `generator` generates images of size `(128x128x3)` which is also the input to the  `discriminator`. In order to change the image size, the `generator` has to be adapted to output the image size and the `image_size = (128,128,3)` in the second cell of the Notebook changed to the corresponding size. Please, endevour to use a squared iamge size to improve performance of model.
 - The model can also be ran from the command line. Just type `python app.py -h` to get help on how to run model:
 #### python app.py -h
-![Example of Images Used](https://github.com/scneba/Generate_Nike_Shoes/blob/master/help.JPG)
+![Example of Images Used](help.JPG)
 
 #### Examples
 - **python app.py Shoes/** 
