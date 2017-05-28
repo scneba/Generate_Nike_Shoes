@@ -1,5 +1,5 @@
 
-##  Nike Shoes generation using Deep convolutional generative adversary networks example.
+##  Nike Shoes generation using Deep convolutional Generative Adversarial Networks example.
 
 The **Deep Convolutional Generative Adversary Network(DCGAN)** is based on the idea of  **Generative Adversary Network(GAN)** first used at University of Montreal by  **Ian J. Goodfellow** and his colleaques. [Here](https://arxiv.org/abs/1406.2661) is the original paper for GANs published in 2014. This repo presents an example of using DCGAN to generate Nike shoes from 100 Nike shoes downloaded from the internet.
 
