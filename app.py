@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
-
 #relevant imports
 import pickle as pkl
 import matplotlib.pyplot as plt
@@ -14,7 +12,6 @@ import cv2
 import argparse
 
 
-#initialise all varibles
 
 def run(imagepath,batch_size,epochs,print_after, show_after):
     print("Image path: {}\n".format(imagepath))
