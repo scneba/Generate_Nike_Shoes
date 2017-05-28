@@ -20,15 +20,15 @@ The **Deep Convolutional Generative Adversary Network(DCGAN)** is based on the i
 
 #### Examples
 - **python app.py Shoes/** 
- - Run model on images in path **Shoes/**
+  - Run model on images in path **Shoes/**
  
 - **python app.py Shoes/ --b 20 --e 100 --s 5 --d 20** 
- - Path to images **Shoes/**.
- - Batch size: **20**
- - Number of Epochs: **100**
- - Show loss after a count of **5**
- - Display generated images after a count of **20**
- 
+  - Path to images **Shoes/**.
+  - Batch size: **20**
+  - Number of Epochs: **100**
+  - Show loss after a count of **5**
+  - Display generated images after a count of **20**
+
  
  #### Results
  These are the results obtained using just **100** downloaded Nike shoes. These shoes are included in the repo [here](./Shoes/).
